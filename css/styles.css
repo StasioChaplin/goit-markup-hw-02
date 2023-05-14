@@ -1,0 +1,13 @@
+:root {
+    --logo-font: 'Raleway', sans-serif;
+    --main-font: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+}
