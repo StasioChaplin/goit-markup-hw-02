@@ -32,8 +32,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
@@ -50,8 +48,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-color);
@@ -68,11 +64,6 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--active-contact-color);
 }
 
@@ -87,11 +78,6 @@ body {
 
 .contacts-link:hover,
 .contacts-link:focus {
-  font-family: var(--main-font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--active-contact-color);
 }
 
@@ -141,8 +127,6 @@ body {
 }
 
 .features-text {
-  font-family: var(--main-font);
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
@@ -168,7 +152,6 @@ body {
 }
 
 .card-description {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
@@ -189,8 +172,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
@@ -199,14 +180,6 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
   background: var(--active-contact-color);
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
   color: var(--nondescript-color);
   cursor: pointer;
 }
@@ -219,7 +192,6 @@ body {
 
 .footer-text {
   width: 264px;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--minor-color);
@@ -230,8 +202,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--minor-color);
