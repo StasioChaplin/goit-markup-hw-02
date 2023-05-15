@@ -63,7 +63,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--secondary-color);
 }
 
 .nav-link:hover,
@@ -76,7 +76,7 @@ body {
   color: var(--active-contact-color);
 }
 
-.email-link {
+.contacts-link {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
@@ -85,23 +85,14 @@ body {
   color: var(--main-color);
 }
 
-.email-link:hover,
-.email-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--active-contact-color);
-}
-
-.phone-link {
-  font-family: var(--main-font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-color);
 }
 
 /* =================== HERO ================= */
@@ -146,6 +137,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 
 .features-text {
@@ -172,6 +164,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 
 .card-description {
@@ -187,6 +180,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--secondary-color);
 }
 
 .filter-btn {
